@@ -2,7 +2,7 @@
 
 - name: Pre tasks > MariaDB apt key
   apt_key:
-    file: pre_tasks/apt_keys/mariadb.pgp
+    file: pre_tasks/apt_keys/mariadb_legacy.pgp
     id: 1BB943DB
 
 - name: Pre tasks > MariaDB apt repository 10.0
